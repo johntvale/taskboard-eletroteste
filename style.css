@@ -1,0 +1,154 @@
+/* Estilo geral */
+body {
+  background-color: #f9f9f9;
+  color: #263238;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Header e Aside */
+header,
+aside {
+  background-color: #ffffff;
+}
+
+/* Título da lista editável */
+#titulo-lista {
+  cursor: url('./assets/icons/pen_.png'), default;
+  text-transform: capitalize;
+}
+
+#titulo-lista:hover {
+  background-color: #fff8e1;
+}
+
+#titulo-lista[contenteditable="true"]:focus {
+  outline: none;
+  border-color: #f57c00;
+  background-color: #fff3e0;
+  padding-left: 4px;
+  border-radius: 4px;
+}
+
+/* Lista ativa no menu lateral */
+#menu-listas .list-group-item {
+  cursor: pointer;
+}
+
+#menu-listas .list-group-item.active,
+#menu-listas .list-group-item.bg-primary {
+  background-color: #f57c00 !important;
+  color: #ffffff;
+  border-color: #f57c00;
+}
+
+#menu-listas .list-group-item.bg-primary small {
+  color: #fffde7 !important;
+}
+
+/* Lista de tarefas */
+#lista-tarefas .list-group-item {
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+#lista-tarefas .list-group-item:hover {
+  background-color: #fff8e1;
+  cursor: url('./assets/icons/pen-mark_.png'), default;
+}
+
+/* Botão principal */
+.btn-primary {
+  background-color: #f57c00;
+  border-color: #f57c00;
+}
+.btn-primary:hover {
+  background-color: #e65100;
+  border-color: #e65100;
+}
+
+#nova-lista:hover {
+  color: #e65100;
+}
+
+/* Botões outline primários */
+.btn-outline-primary {
+  color: #f57c00;
+  border-color: #f57c00;
+}
+.btn-outline-primary:hover {
+  background-color: #fff3e0;
+  border-color: #f57c00;
+}
+
+/* Botões de exclusão (Limpar Lista, Excluir Item, etc.) */
+.btn-outline-danger {
+  color: #c62828;
+  border-color: #c62828;
+}
+.btn-outline-danger:hover {
+  background-color: #ffebee;
+  color: #b71c1c;
+  border-color: #c62828;
+}
+
+/* Botões secundários (Concluir Depois, Fechar Lista) */
+.btn-outline-secondary {
+  color: #607d8b;
+  border-color: #607d8b;
+}
+.btn-outline-secondary:hover {
+  background-color: #eceff1;
+  color: #37474f;
+  border-color: #607d8b;
+}
+
+/* Botão "Remover Concluídos" (alerta laranja) */
+.btn-outline-warning {
+  color: #f57c00;
+  border-color: #f57c00;
+}
+.btn-outline-warning:hover {
+  background-color: #fff3e0;
+  color: #e65100;
+  border-color: #f57c00;
+}
+
+/* Badges de status */
+
+/* Em progresso */
+.badge.bg-secondary {
+  background-color: #607d8b !important;
+  color: #ffffff !important;
+  font-weight: 400;
+}
+.list-group-item.bg-primary .badge.bg-secondary {
+  background-color: #90a4ae !important;
+  color: #263238 !important;
+}
+
+/* Concluído */
+.badge.bg-success {
+  background-color: #43a047 !important;
+  color: #ffffff !important;
+  font-weight: 400;
+}
+.list-group-item.bg-primary .badge.bg-success {
+  background-color: #c8e6c9 !important;
+  color: #1b5e20 !important;
+}
+
+/* Modal refinado */
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header {
+  background-color: #f57c00;
+  color: #ffffff;
+}
+.modal-footer .btn-primary {
+  background-color: #f57c00;
+  border-color: #f57c00;
+}
+.modal-footer .btn-primary:hover {
+  background-color: #e65100;
+  border-color: #e65100;
+}
