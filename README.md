@@ -2,7 +2,7 @@
 
 O Taskboard Eletroteste foi desenvolvido para a empresa Eletroteste com o objetivo de acompanhar as Tarefas do dia e acompanhar e Cotações enviadas.
 
-Para isso, criei um aplicativo capaz de Criar listas de tarefas, visualizáveis em um menu lateral com informações de status e quantidade de itens, selecionar a lista atual e adicionar itens editáveis e riscáveis.
+Para isso, criei um aplicativo capaz de Criar listas de tarefas, visualizáveis em um menu lateral com informações de status e quantidade de itens, selecionar a lista atual e adicionar itens editáveis e riscáveis, e persistência de dados em LocalStorage.
 
 ---
 
@@ -27,6 +27,7 @@ Construído com:
 - HTML5
 - CSS3
 - JavaScript
+- LocalStorage
 - [Bootstrap](https://getbootstrap.com/)
 
 ---
@@ -56,7 +57,7 @@ Construído com:
 
 Teste o projeto através do link abaixo:
 
-👉 [Acessar Taskboard Eletroteste](https://seu-link-aqui.com)
+👉 [Acessar TaskBoard Eletroteste](https://johntvale.github.io/taskboard-eletroteste/)
 
 ---
 
