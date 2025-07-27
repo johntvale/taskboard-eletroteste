@@ -38,17 +38,27 @@ Construído com:
 
 <p align="center">
   <img src="./assets/images/print1.png" alt="Tela inicial do Taskboard Eletroteste" width="80%">
-  <br>"Lista de FOLLOW UP" aberta. Tela inicial do TaskBoard Eletroteste com as listas já criadas, ítens inclusos, e com exemplo de listas concluídas.
 </p>
+<p align="center">
+  <em>"Lista de FOLLOW UP" aberta. Tela inicial do TaskBoard Eletroteste com as listas já criadas, itens inclusos e com exemplo de listas concluídas.</em>
+</p>
+
+---
 
 <p align="center">
   <img src="./assets/images/print2.png" alt="Lista de tarefas com itens adicionados" width="80%">
-    <br>"Lista de tarefas" aberta.
+</p>
+<p align="center">
+  <em>"Lista de tarefas" aberta.</em>
 </p>
 
+---
+
 <p align="center">
-  <img src="./assets/images/print3.png" alt="Lista de tarefas com itens adicionados - layout responsivo" width="60%">
-  <br>"Lista de tarefas" aberta. Demonstração do Layout Responsivo.
+  <img src="./assets/images/print3.png" alt="Lista de tarefas com itens adicionados - layout responsivo" width="40%">
+</p>
+<p align="center">
+  <em>"Lista de tarefas" aberta. Demonstração do layout responsivo.</em>
 </p>
 
 ---
